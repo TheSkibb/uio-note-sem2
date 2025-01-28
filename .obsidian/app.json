@@ -3,5 +3,8 @@
   "livePreview": false,
   "autoPairBrackets": false,
   "autoPairMarkdown": false,
-  "smartIndentList": false
+  "smartIndentList": false,
+  "attachmentFolderPath": "attachments",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Unsorted-Notes"
 }

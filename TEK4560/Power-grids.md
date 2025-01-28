@@ -1,0 +1,1 @@
+Power grids are an example of critical infrastructure.

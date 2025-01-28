@@ -1,7 +1,46 @@
 {
 	"nodes":[
-		{"id":"fe7462adc4fecaca","x":-140,"y":-80,"width":540,"height":1860,"type":"file","file":"TEK4560/concepts.md"},
-		{"id":"d832d448f49ef735","x":880,"y":0,"width":400,"height":400,"type":"file","file":"Excalidraw/ThreatsAttacksAndAssets.md"}
+		{"id":"b9196746b0f40733","type":"file","file":"TEK4560/Information-technology.md","x":-960,"y":-200,"width":400,"height":400},
+		{"id":"0809a850f2f9231e","type":"file","file":"TEK4560/Operational-Technology.md","x":-520,"y":-200,"width":440,"height":200},
+		{"id":"4726ece7e399f919","type":"file","file":"TEK4560/CPS.md","x":1040,"y":200,"width":400,"height":480},
+		{"id":"e8a60da4cc0b9a0c","type":"text","text":"# Security","x":555,"y":-11,"width":250,"height":60},
+		{"id":"56fb60ec1ce5209e","type":"file","file":"TEK4560/critical-infrastructure.md","x":1840,"y":280,"width":400,"height":400},
+		{"id":"2709047085a74222","type":"file","file":"TEK4560/Power-grids.md","x":2760,"y":-100,"width":400,"height":400},
+		{"id":"7938efd8cfe137fd","type":"text","text":"# Frameworks","x":790,"y":-550,"width":250,"height":50},
+		{"id":"c3a157a4699dba26","type":"file","file":"TEK4560/STRIDE.md","x":-200,"y":-1520,"width":400,"height":400},
+		{"id":"1b004b47d0066228","type":"file","file":"TEK4560/NIST-security-framework.md","x":280,"y":-1520,"width":400,"height":400},
+		{"id":"afa6fa6a8ac4969c","type":"file","file":"TEK4560/ISO-27000-family.md","x":715,"y":-1520,"width":400,"height":400},
+		{"id":"c89f7a9cdef2bb32","type":"file","file":"TEK4560/DREAD-model.md","x":1160,"y":-1520,"width":400,"height":400},
+		{"id":"bb457969007f6d87","type":"file","file":"TEK4560/MITRE-ATT&CK.md","x":1520,"y":-1040,"width":400,"height":400},
+		{"id":"d832d448f49ef735","type":"file","file":"Excalidraw/ThreatsAttacksAndAssets.md","x":2120,"y":-2680,"width":1160,"height":680},
+		{"id":"f6690714d10bf822","type":"file","file":"TEK4560/MITRE-CAPEC.md","x":2200,"y":-1280,"width":400,"height":160},
+		{"id":"d434a17b2c4923ee","type":"file","file":"TEK4560/MITRE-ATLAS.md","x":2200,"y":-1064,"width":400,"height":224},
+		{"id":"923e3b98bd1f46b7","type":"file","file":"TEK4560/MITRE-D3FEND.md","x":2200,"y":-784,"width":400,"height":184},
+		{"id":"d147c47af16529b6","type":"file","file":"TEK4560/SafeSecTropos.md","x":1520,"y":-550,"width":400,"height":190},
+		{"id":"27a66caa5bd7c0aa","type":"text","text":"# Real World Attacks","x":1055,"y":1400,"width":370,"height":50},
+		{"id":"bd99a1939deacd57","x":1160,"y":1840,"width":400,"height":400,"type":"file","file":"Unsorted-Notes/Stuxnet-attack.md"},
+		{"id":"c99af98e4d52b5fd","type":"file","file":"TEK4560/Parkerian-Hexad.md","x":-300,"y":-700,"width":400,"height":400},
+		{"id":"04dc03d92b7c78ca","x":280,"y":440,"width":274,"height":80,"type":"text","text":"# Architecture"},
+		{"id":"8919808576cdaf1e","type":"file","file":"TEK4560/CPS-layer-architecture.md","x":-520,"y":320,"width":600,"height":320}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"8ce13e1feed1b2ec","fromNode":"4726ece7e399f919","fromSide":"left","toNode":"e8a60da4cc0b9a0c","toSide":"bottom"},
+		{"id":"06ba17cf513ec531","fromNode":"e8a60da4cc0b9a0c","fromSide":"top","toNode":"c99af98e4d52b5fd","toSide":"right"},
+		{"id":"92d53c0b83901b84","fromNode":"4726ece7e399f919","fromSide":"right","toNode":"56fb60ec1ce5209e","toSide":"left"},
+		{"id":"3e3ad08f437f79db","fromNode":"56fb60ec1ce5209e","fromSide":"right","toNode":"2709047085a74222","toSide":"left"},
+		{"id":"e55001ea0b3afc9e","fromNode":"e8a60da4cc0b9a0c","fromSide":"top","toNode":"7938efd8cfe137fd","toSide":"bottom"},
+		{"id":"34c99697f1868b04","fromNode":"7938efd8cfe137fd","fromSide":"top","toNode":"c3a157a4699dba26","toSide":"bottom"},
+		{"id":"10c6ade6fc25cb48","fromNode":"7938efd8cfe137fd","fromSide":"top","toNode":"1b004b47d0066228","toSide":"bottom"},
+		{"id":"8d1b521c54e4d9bd","fromNode":"7938efd8cfe137fd","fromSide":"top","toNode":"afa6fa6a8ac4969c","toSide":"bottom"},
+		{"id":"79fd177489c5f40f","fromNode":"7938efd8cfe137fd","fromSide":"top","toNode":"c89f7a9cdef2bb32","toSide":"bottom"},
+		{"id":"0819fbf4f9a73fe5","fromNode":"7938efd8cfe137fd","fromSide":"top","toNode":"bb457969007f6d87","toSide":"left"},
+		{"id":"89ec6e7e0d349ef8","fromNode":"bb457969007f6d87","fromSide":"right","toNode":"f6690714d10bf822","toSide":"left"},
+		{"id":"df6b80cee263e2e6","fromNode":"bb457969007f6d87","fromSide":"right","toNode":"d434a17b2c4923ee","toSide":"left"},
+		{"id":"690f8000de01bcb5","fromNode":"bb457969007f6d87","fromSide":"right","toNode":"923e3b98bd1f46b7","toSide":"left"},
+		{"id":"1aeccd1908e9d819","fromNode":"7938efd8cfe137fd","fromSide":"top","toNode":"d147c47af16529b6","toSide":"left"},
+		{"id":"851dc5e9c9f9bc00","fromNode":"4726ece7e399f919","fromSide":"bottom","toNode":"27a66caa5bd7c0aa","toSide":"top"},
+		{"id":"81e29c8eb63d5540","fromNode":"27a66caa5bd7c0aa","fromSide":"bottom","toNode":"bd99a1939deacd57","toSide":"top"},
+		{"id":"44cb79db829ac4fd","fromNode":"4726ece7e399f919","fromSide":"left","toNode":"04dc03d92b7c78ca","toSide":"right"},
+		{"id":"7eeb8c6f14aa8f37","fromNode":"04dc03d92b7c78ca","fromSide":"left","toNode":"8919808576cdaf1e","toSide":"right"}
+	]
 }

@@ -28,13 +28,6 @@
 > **I**ntegrity - unauthorized actors should not be able to modify information
 > **A**vailability - authorized actors should always be able to access their information and services
 
-## Parkerian Hexad
-
-> Adds extra properties to the [[#CIA triad]]
-
-> Possession or control
-TODO: fill out
-
 ## Levels of security breach impact
 
 > Typically divided into three levels of impact:
