@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"351d8c6b9cdc7b69","type":"file","file":"IN5030/IN5030.md","x":40,"y":-240,"width":180,"height":80},
+		{"id":"b1ebc1809cb23e8c","type":"text","text":"## articles","x":-1820,"y":-480,"width":250,"height":60},
+		{"id":"732a7366662be6a3","type":"text","text":"[[Things_You_Should_Know_About_Fronthaul.pdf|Things you should know about mobile fronthaul]]","x":-1660,"y":-305,"width":320,"height":60},
+		{"id":"c45703e6c569c59a","x":-1480,"y":-140,"width":510,"height":340,"type":"text","text":"Traditional **Basestation (BS)** \n\n**Digital Unit (DU)**/**Baseband Unit** -> digital signal processing\n\n**radio unit (RU)** -> **radio frequency (RF)** transmit and receive components connected to the antenna\n\n**Common public radio interface (CPRI)** or **open base station architecture initiative (OBSAI)**-> standard for digitizing radio signals "},
+		{"id":"92f3e99f1c34d7c0","type":"text","text":"The rise in popularity of radio access networks (mobile data) gives rising demands to the infrastucture. **Mobile fronthaul** is a technology which may facilitate this ","x":-3320,"y":-245,"width":400,"height":420},
+		{"id":"7f546c93e1feadca","x":-2769,"y":-97,"width":278,"height":110,"type":"text","text":"## C-RAN\n\n**C**-**R**adio **A**ccess **N**etwork"},
+		{"id":"9a32f965c0e6b08a","x":-1869,"y":-40,"width":315,"height":397,"type":"text","text":"## Fronthaul Requirements\n\n- Radio site configuration\n- Data-rate\n- Data-rate performance\n- Latency and other timing parameters\n- Synchronization and Jitter\n- Fronthaul Monitoring\n- Business and Local Requirements"},
+		{"id":"b7fa0ec94dfdd51a","type":"text","text":"## Pros\n\n- Fast\n- Resilient\n- Low interference\n","x":-880,"y":-240,"width":250,"height":200},
+		{"id":"90e1351a2c5fa35f","type":"text","text":"Optical networking uses thin strands of glass. Through these strands pulses of light are used to transmit data.","x":-780,"y":-660,"width":365,"height":140},
+		{"id":"7812d6e5e46614fc","type":"text","text":"# Optical Networking","x":-780,"y":-440,"width":430,"height":80},
+		{"id":"40d2207ed09cc499","type":"text","text":"## Cons","x":-565,"y":-240,"width":250,"height":150},
+		{"id":"5dcf1d638cb08e2d","x":-2831,"y":168,"width":340,"height":420,"type":"text","text":"## C-RAN Drivers\n\n- difficult rollout in dense urban areas\n- reduction in energy consumption\n\t- 40-50% savings compared with macro cell with bachaul\n- low latency between **DU**s\n- security from **DU**s being located in physically secure locations\n\t- no need for IPsec"},
+		{"id":"354c00fe75918b4a","x":-2381,"y":-153,"width":320,"height":347,"type":"text","text":"## Fronthaul Interface\n\ninterface between **RU** and **DU**\n\nDefined by **CPRI** and **OBSAI**\n\nMain challenge is interoperability between different vendors, as some parts are vendor proprietary"},
+		{"id":"f3d6f3ed3fa865db","x":-2491,"y":327,"width":372,"height":325,"type":"text","text":"## Common aspects to fronthaul interfaces\n\n- All **BS**s are split in two parts\n- optical fiber as physical layer\n- SFP\n- constant bitrate in uplink and downlink"},
+		{"id":"dc88cdafa0dd74ce","x":-2073,"y":438,"width":345,"height":240,"type":"text","text":"## Open Radio Interface - (ORI) \n\ninterface built on top of **CRPI** to acheive interoperability."},
+		{"id":"667eabc680547b9c","type":"text","text":"[[Emerging_optical_access_network_technologies_for_5G_wireless_invited.pdf|Emerging optical access network technologies]]","x":-2201,"y":-345,"width":300,"height":70}
+	],
+	"edges":[
+		{"id":"607f52b5b67c0c54","fromNode":"351d8c6b9cdc7b69","fromSide":"left","toNode":"7812d6e5e46614fc","toSide":"right"},
+		{"id":"5eda0f786e5b131a","fromNode":"7812d6e5e46614fc","fromSide":"bottom","toNode":"b7fa0ec94dfdd51a","toSide":"top"},
+		{"id":"22da05146f0fbe68","fromNode":"7812d6e5e46614fc","fromSide":"top","toNode":"90e1351a2c5fa35f","toSide":"bottom"},
+		{"id":"6b0564ac66a84446","fromNode":"7812d6e5e46614fc","fromSide":"left","toNode":"b1ebc1809cb23e8c","toSide":"right"},
+		{"id":"a0ac26bbb22f2cc1","fromNode":"b1ebc1809cb23e8c","fromSide":"bottom","toNode":"667eabc680547b9c","toSide":"top"},
+		{"id":"f78ef64b422307e2","fromNode":"667eabc680547b9c","fromSide":"bottom","toNode":"92f3e99f1c34d7c0","toSide":"top"},
+		{"id":"dbc60c09dffcdd0f","fromNode":"667eabc680547b9c","fromSide":"bottom","toNode":"7f546c93e1feadca","toSide":"top"},
+		{"id":"caea3aa0e07e2945","fromNode":"732a7366662be6a3","fromSide":"bottom","toNode":"7f546c93e1feadca","toSide":"top"},
+		{"id":"fe9589a7aaabd869","fromNode":"732a7366662be6a3","fromSide":"bottom","toNode":"c45703e6c569c59a","toSide":"top"},
+		{"id":"5ec8bf178306926b","fromNode":"7f546c93e1feadca","fromSide":"bottom","toNode":"5dcf1d638cb08e2d","toSide":"top"},
+		{"id":"3f39b6417ee27b56","fromNode":"b1ebc1809cb23e8c","fromSide":"bottom","toNode":"732a7366662be6a3","toSide":"top"},
+		{"id":"4cec0c02b29140ec","fromNode":"732a7366662be6a3","fromSide":"bottom","toNode":"354c00fe75918b4a","toSide":"top"},
+		{"id":"f583dd0d54953796","fromNode":"354c00fe75918b4a","fromSide":"bottom","toNode":"dc88cdafa0dd74ce","toSide":"top"},
+		{"id":"f1ba0b58a855b869","fromNode":"354c00fe75918b4a","fromSide":"bottom","toNode":"f3d6f3ed3fa865db","toSide":"top"},
+		{"id":"7f7936f01f1a28ef","fromNode":"732a7366662be6a3","fromSide":"bottom","toNode":"9a32f965c0e6b08a","toSide":"top"}
+	]
+}

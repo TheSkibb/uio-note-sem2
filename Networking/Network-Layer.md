@@ -1,0 +1,1 @@
+The network layers purpose is to transport packets from point A to B

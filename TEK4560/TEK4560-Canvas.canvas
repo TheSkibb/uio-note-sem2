@@ -3,9 +3,8 @@
 		{"id":"b9196746b0f40733","type":"file","file":"TEK4560/Information-technology.md","x":-960,"y":-200,"width":400,"height":400},
 		{"id":"0809a850f2f9231e","type":"file","file":"TEK4560/Operational-Technology.md","x":-520,"y":-200,"width":440,"height":200},
 		{"id":"4726ece7e399f919","type":"file","file":"TEK4560/CPS.md","x":1040,"y":200,"width":400,"height":480},
-		{"id":"e8a60da4cc0b9a0c","type":"text","text":"# Security","x":555,"y":-11,"width":250,"height":60},
-		{"id":"56fb60ec1ce5209e","type":"file","file":"TEK4560/critical-infrastructure.md","x":1840,"y":280,"width":400,"height":400},
-		{"id":"2709047085a74222","type":"file","file":"TEK4560/Power-grids.md","x":2760,"y":-100,"width":400,"height":400},
+		{"id":"56fb60ec1ce5209e","type":"file","file":"TEK4560/critical-infrastructure.md","x":1840,"y":280,"width":480,"height":1000},
+		{"id":"2709047085a74222","type":"file","file":"TEK4560/Power-grids.md","x":2760,"y":-100,"width":400,"height":149},
 		{"id":"7938efd8cfe137fd","type":"text","text":"# Frameworks","x":790,"y":-550,"width":250,"height":50},
 		{"id":"c3a157a4699dba26","type":"file","file":"TEK4560/STRIDE.md","x":-200,"y":-1520,"width":400,"height":400},
 		{"id":"1b004b47d0066228","type":"file","file":"TEK4560/NIST-security-framework.md","x":280,"y":-1520,"width":400,"height":400},
@@ -18,10 +17,18 @@
 		{"id":"923e3b98bd1f46b7","type":"file","file":"TEK4560/MITRE-D3FEND.md","x":2200,"y":-784,"width":400,"height":184},
 		{"id":"d147c47af16529b6","type":"file","file":"TEK4560/SafeSecTropos.md","x":1520,"y":-550,"width":400,"height":190},
 		{"id":"27a66caa5bd7c0aa","type":"text","text":"# Real World Attacks","x":1055,"y":1400,"width":370,"height":50},
-		{"id":"bd99a1939deacd57","x":1160,"y":1840,"width":400,"height":400,"type":"file","file":"Unsorted-Notes/Stuxnet-attack.md"},
-		{"id":"c99af98e4d52b5fd","type":"file","file":"TEK4560/Parkerian-Hexad.md","x":-300,"y":-700,"width":400,"height":400},
-		{"id":"04dc03d92b7c78ca","x":280,"y":440,"width":274,"height":80,"type":"text","text":"# Architecture"},
-		{"id":"8919808576cdaf1e","type":"file","file":"TEK4560/CPS-layer-architecture.md","x":-520,"y":320,"width":600,"height":320}
+		{"id":"bd99a1939deacd57","type":"file","file":"Unsorted-Notes/Stuxnet-attack.md","x":1160,"y":1840,"width":400,"height":400},
+		{"id":"04dc03d92b7c78ca","type":"text","text":"# Architecture","x":280,"y":440,"width":274,"height":80},
+		{"id":"8919808576cdaf1e","type":"file","file":"TEK4560/CPS-layer-architecture.md","x":-520,"y":320,"width":600,"height":320},
+		{"id":"33f168b36af8e67e","x":2760,"y":140,"width":400,"height":120,"type":"file","file":"TEK4560/Electronic communications.md"},
+		{"id":"bce5f70c57db2c55","x":2760,"y":380,"width":400,"height":120,"type":"file","file":"TEK4560/Water supply and sewage.md"},
+		{"id":"14e08bcf2fda7a71","x":2760,"y":620,"width":400,"height":120,"type":"file","file":"TEK4560/Transport.md"},
+		{"id":"e4e6d1a9e2b7a77a","x":2760,"y":840,"width":400,"height":120,"type":"file","file":"TEK4560/Oil and Gas.md"},
+		{"id":"cd853f86d5a84896","x":2760,"y":1050,"width":400,"height":150,"type":"file","file":"TEK4560/Satelite Based infrastructure.md"},
+		{"id":"7d307f26e090f281","x":2403,"y":1532,"width":434,"height":73,"type":"text","text":"# Deciding if critical"},
+		{"id":"729e439194b6c09e","x":2200,"y":1605,"width":840,"height":870,"type":"file","file":"Excalidraw/Deciding-if-critical.md"},
+		{"id":"e8a60da4cc0b9a0c","type":"text","text":"# Security","x":304,"y":-300,"width":250,"height":60},
+		{"id":"c99af98e4d52b5fd","type":"file","file":"TEK4560/Parkerian-Hexad.md","x":-620,"y":-725,"width":400,"height":400}
 	],
 	"edges":[
 		{"id":"8ce13e1feed1b2ec","fromNode":"4726ece7e399f919","fromSide":"left","toNode":"e8a60da4cc0b9a0c","toSide":"bottom"},
@@ -41,6 +48,12 @@
 		{"id":"851dc5e9c9f9bc00","fromNode":"4726ece7e399f919","fromSide":"bottom","toNode":"27a66caa5bd7c0aa","toSide":"top"},
 		{"id":"81e29c8eb63d5540","fromNode":"27a66caa5bd7c0aa","fromSide":"bottom","toNode":"bd99a1939deacd57","toSide":"top"},
 		{"id":"44cb79db829ac4fd","fromNode":"4726ece7e399f919","fromSide":"left","toNode":"04dc03d92b7c78ca","toSide":"right"},
-		{"id":"7eeb8c6f14aa8f37","fromNode":"04dc03d92b7c78ca","fromSide":"left","toNode":"8919808576cdaf1e","toSide":"right"}
+		{"id":"7eeb8c6f14aa8f37","fromNode":"04dc03d92b7c78ca","fromSide":"left","toNode":"8919808576cdaf1e","toSide":"right"},
+		{"id":"32134b7042fbe773","fromNode":"56fb60ec1ce5209e","fromSide":"right","toNode":"33f168b36af8e67e","toSide":"left"},
+		{"id":"e873b01cd5c84514","fromNode":"56fb60ec1ce5209e","fromSide":"right","toNode":"bce5f70c57db2c55","toSide":"left"},
+		{"id":"6bdcb8104a635c48","fromNode":"56fb60ec1ce5209e","fromSide":"right","toNode":"14e08bcf2fda7a71","toSide":"left"},
+		{"id":"906a8163153a140b","fromNode":"56fb60ec1ce5209e","fromSide":"right","toNode":"e4e6d1a9e2b7a77a","toSide":"left"},
+		{"id":"f5e51e88d3bc3e28","fromNode":"56fb60ec1ce5209e","fromSide":"right","toNode":"cd853f86d5a84896","toSide":"left"},
+		{"id":"f86a500deefbfd8d","fromNode":"56fb60ec1ce5209e","fromSide":"bottom","toNode":"7d307f26e090f281","toSide":"top"}
 	]
 }
