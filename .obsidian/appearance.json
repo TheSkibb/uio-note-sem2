@@ -1,5 +1,6 @@
 {
   "cssTheme": "Obsidian gruvbox",
   "textFontFamily": "Liberation Mono",
-  "interfaceFontFamily": "Liberation Mono"
+  "interfaceFontFamily": "Liberation Mono",
+  "theme": "obsidian"
 }

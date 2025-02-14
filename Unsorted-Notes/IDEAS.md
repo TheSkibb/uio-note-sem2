@@ -1,0 +1,12 @@
+malware tests
+- powershell/curl auto malware installer
+- covert channel tests
+	- HTTP headers
+- speed reader
+	- markerer ord på en nettside
+- curling window manager
+	- lettvekt wm med vinduer som glir rundt og kolliderer med hverandre
+- you will never win casino
+	- slot maskin som du alltid taper på
+- map racers
+	- 2d racing spill hvor man bruker kart og kan markere løyper og dele.

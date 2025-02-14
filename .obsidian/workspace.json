@@ -8,27 +8,76 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e8d50d038277c19a",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "IN5030/artikler/Emerging_optical_access_network_technologies_for_5G_wireless_invited.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Emerging_optical_access_network_technologies_for_5G_wireless_invited"
-            }
-          },
-          {
             "id": "c109107c9c1118e8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "Master/infoGathering/Manufacturing-Message-Specification-(MMS)-based-Open-Manufacturing-System.pdf"
+                "file": "IN4180/IN4180-Canvas.canvas",
+                "viewState": {
+                  "x": 1809.4541288212279,
+                  "y": 380.25247692899103,
+                  "zoom": -1.599146298081795
+                }
               },
-              "icon": "lucide-file-text",
-              "title": "Manufacturing-Message-Specification-(MMS)-based-Open-Manufacturing-System"
+              "icon": "lucide-layout-dashboard",
+              "title": "IN4180-Canvas"
+            }
+          },
+          {
+            "id": "e8d50d038277c19a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "IN5030/IN5030-canvas.canvas",
+                "viewState": {
+                  "x": 2777.0849408944464,
+                  "y": -1043.1273142140421,
+                  "zoom": 0.08051691466319438
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "IN5030-canvas"
+            }
+          },
+          {
+            "id": "37e69f66486c7c16",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/triangleCovertChannelCharacteristics.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "triangleCovertChannelCharacteristics"
+            }
+          },
+          {
+            "id": "92657079af98abe0",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "TEK4560/TEK4560-Canvas.canvas",
+                "viewState": {
+                  "x": 2359.278775445286,
+                  "y": 160.9219741739036,
+                  "zoom": -0.3704350397354488
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "TEK4560-Canvas"
+            }
+          },
+          {
+            "id": "08a9acedfa30276d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -51,7 +100,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -88,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "af56fb13232a4df7",
@@ -174,20 +225,31 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c109107c9c1118e8",
+  "active": "e8d50d038277c19a",
   "lastOpenFiles": [
-    "Master/infoGathering/Protocol_design_and_performance_analysis_for_manufacturing_message_specification_A_Petri_net_approach.pdf",
-    "Master/infoGathering/Manufacturing-Message-Specification-(MMS)-based-Open-Manufacturing-System.pdf",
+    "Excalidraw/triangleCovertChannelCharacteristics.md",
     "IN5030/IN5030-canvas.canvas",
+    "TEK4560/TEK4560-Canvas.canvas",
+    "IN4180/IN4180-Canvas.canvas",
+    "Unsorted-Notes/IDEAS.md",
+    "Networking/Networking-canvas.canvas",
+    "Excalidraw/Drawing 2025-02-13 13.37.19.excalidraw.md",
+    "Excalidraw/transmission delay.md",
+    "IN4180/forelesninger/network-defence-and-security-data.pdf",
+    "IN4180/forelesninger/WS Network defence - Feb 13th 25.pdf",
+    "IN5030/artikler/A_survey_of_covert_channels_and_countermeasures_in_computer_network_protocols.pdf",
+    "IN5030/artikler/Trends and Challenges in Network Covert Channels Countermeasures.pdf",
+    "IN5030/artikler/Emerging_optical_access_network_technologies_for_5G_wireless_invited.pdf",
+    "IN4180/dates.md",
+    "Master/MMS-canvas.canvas",
+    "Master/infoGathering/Manufacturing-Message-Specification-(MMS)-based-Open-Manufacturing-System.pdf",
+    "Master/infoGathering/Protocol_design_and_performance_analysis_for_manufacturing_message_specification_A_Petri_net_approach.pdf",
     "sinusoidal-jitter.txt",
     "IN5030/artikler/Things_You_Should_Know_About_Fronthaul.pdf",
-    "IN5030/artikler/Emerging_optical_access_network_technologies_for_5G_wireless_invited.pdf",
     "Unsorted-Notes/Untitled.md",
     "IN5030/concepts.md",
     "IN5030/IN5030.md",
-    "TEK4560/TEK4560-Canvas.canvas",
     "TEK4560/MITRE-CAPEC.md",
-    "Networking/Networking-canvas.canvas",
     "Networking/Network-Layer.md",
     "Networking/ICMP.md",
     "Networking/DNS.md",
@@ -204,16 +266,6 @@
     "TEK4560/Transport.md",
     "TEK4560/Water supply and sewage.md",
     "TEK4560/critical-infrastructure.md",
-    "Unsorted-Notes/Challenges-in-CPS.md",
-    "Unsorted-Notes/Stuxnet-attack.md",
-    "TEK4560/Electronic communications.md",
-    "TEK4560/SafeSecTropos.md",
-    "TEK4560/MITRE-D3FEND.md",
-    "IN5030/artikler",
-    "IN5030/optical-networking/Things_You_Should_Know_About_Fronthaul.pdf",
-    "Master/TODO.md~",
-    "Master/infoGathering",
-    "IN5030/optical-networking/LectureW03.md~",
-    "IN4180/IN4180-Canvas.canvas"
+    "IN5030/artikler"
   ]
 }
